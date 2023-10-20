@@ -1,0 +1,278 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    scroll-behavior: smooth;
+    background-image: url();
+    background-color: rgb(245, 233, 226);
+}
+
+/*------------------ STYLE NAVBAR ------------------*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 50px;
+    display: flex;
+    align-self: center;
+    line-height: 55px;
+}
+
+.navbar .logo-img {
+    font-size: 35px;
+}
+
+.navbar .logo-text {
+    color: white;
+    font-size: 45px;
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 0px 20px;
+}
+
+a.nav {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    line-height: 37px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a.nav:hover {
+    background-color: #853438;
+    cursor: pointer;
+}
+
+img.navbar {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    align-self: center;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    color: white;
+}
+
+/*---------- Style content -------------*/
+.img {
+    height: 600px;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/91/2a/1c/912a1c51649796ad986191a58a55879c.jpg);
+}
+
+.img .content {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img .content h1 {
+    font-size: 200px;
+    text-align: center;
+
+}
+
+.img .content p {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 50px;
+}
+.container{
+    margin: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.container .context{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.container .pros{
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+    justify-content:space-around;
+    gap: 15px;
+    background-color: white;
+    padding: 55px 40px;
+    border-radius: 12px;
+    box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
+}
+.container .pros .content{
+    align-self: center;
+}
+
+.container .pros .content p.title{
+    font-size: 20px;
+    
+    margin-bottom: 40px;
+
+}
+.container .pros .content p{
+    font-size: 20px;
+    width: 400px;
+}
+.container .pros .content .grp{
+   
+    justify-content: space-evenly;
+    width: fit-content;
+    margin: 0 0;
+}
+.container .pros .content .grp .box{
+    display: flex;
+}
+.container .pros .content .grp .box .inbox{
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    
+}
+.container .pros .content .grp img{
+    width: 80px;
+   
+}
+
+.container .pros .content .grp p.heading{
+    width: 200px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.container .pros .content .grp p.describe{
+    font-size: 17px;
+    color: rgb(106,106,106);
+}
+
+.container .pic img{
+    width: 300px;
+}
+
+/*-------------------- Style team -----------------------*/
+h1.title{
+    text-align: center;
+    margin-top: 100px;
+}
+.container .team{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px ;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 25px 0  80px;
+    box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
+
+}
+.container .team img{
+    width: 300px;
+}
+
+.container .team .profile p{
+    padding: 5px 0;
+    margin-bottom: 30px;
+}
+/*----------------- Style comment -------------------*/
+h1.comment-title{
+    text-align: center;
+    margin-top: 250px;
+}
+.container .comment{
+    width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
+}
+.container .comment h2{
+    padding: 40px 30px 0;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.container .comment p{
+    font-size: 20px;
+    color: rgb(106,106,106);
+
+}
+
+
+/*----- Style footer -----*/
+.footer {
+    background-color: rgb(25, 30, 49);
+    display: flex;
+    justify-content: center;
+
+    padding: 20px;
+}
+
+.infooter {
+    width: 50%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    margin: 30px;
+
+}
+
+.foot {
+    margin: 15px;
+}
+
+h1.foot {
+    font-size: 40px;
+}
+
+p.foot {
+    font-size: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+}

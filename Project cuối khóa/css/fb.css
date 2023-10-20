@@ -1,0 +1,145 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    scroll-behavior: smooth;
+    background-image: url(../chinese-traditional-oriental-background-red-clouds-ornament-pattern-on-red-background-chinese-new-year-art-concept-chinese-style-pattern-decoration-graphic-illustration-4k-siz.jpg);
+
+}
+
+/*------------------ STYLE NAVBAR ------------------*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 50px;
+    display: flex;
+    align-self: center;
+    line-height: 55px;
+}
+
+.navbar .logo-img {
+    font-size: 35px;
+}
+
+.navbar .logo-text {
+    color: white;
+    font-size: 45px;
+    margin-left: 60px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 0px 20px;
+}
+
+a.nav {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border-radius: 3px;
+    padding: 7px 13px;
+    line-height: 37px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a.nav:hover {
+    background-color: #853438;
+    cursor: pointer;
+}
+
+img.navbar {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    align-self: center;
+}
+
+/*---------- Style container ----------*/
+
+.container {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    color: brown;
+    align-self: center;
+    font-family: 'EB Garamond', serif;
+    margin: auto;
+    background-color: #E8C99B;
+    width: 700px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 6px 5px 6px 5px rgba(0, 0, 0, 0.16);
+}
+
+h1 {
+    margin: 0 30px 30px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content label {
+    margin: 0 0 5px 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content input {
+    width: 100%;
+    border: solid black 1px;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 15px;
+    margin: 5px 0 40px;
+
+}
+
+.content textarea {
+    width: 100%;
+    font-size: 15px;
+    padding: 3px;
+    font-family: 'Inter', sans-serif;
+    margin: 5px 0 40px 0;
+    border: solid 1px black;
+    border-radius: 3px;
+
+}
+
+.content .submit {
+    text-align: center;
+}
+
+.content .submit button {
+    padding: 10px 50px;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: brown;
+    color: #E8C99B;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.content .submit button:hover {
+    cursor: pointer;
+    background-color: rgb(163, 84, 84);
+    color: #E8C99B;
+}
